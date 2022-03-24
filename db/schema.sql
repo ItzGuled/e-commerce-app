@@ -1,6 +1,6 @@
 -- DROP DATABASE
-DROP DATABASE IF EXISTS e-commerce-app;
+DROP DATABASE IF EXISTS e_commerce_app;
 
 -- CREATE DATABASE
-CREATE DATABASE e-commerce-app;
+CREATE DATABASE e_commerce_app;
 
