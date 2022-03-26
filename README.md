@@ -1,4 +1,4 @@
-# E-commerce Back 
+# E-commerce App
 
 ## The Motivation
 
