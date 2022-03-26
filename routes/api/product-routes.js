@@ -38,7 +38,7 @@ router.get("/:id", (req, res) => {
     include: [
       {
         model: Category,
-        attributes: ["id", 'category_name'],
+        attributes: ["id", "category_name"],
       },
       {
         model: Tag,
@@ -134,7 +134,7 @@ router.delete("/:id", (req, res) => {
   Product.destroy({
     where: {
       id: req.params.id,
-    }
+    },
   }).then((data) => res.json(data));
 });
 
